@@ -23,6 +23,7 @@ All analyses were conducted using custom MATLAB scripts developed in-house and t
 
 ## Repository structure
 
+```text
 MEA-LoDA_Method_Code/
 ├── data/                 # Input datasets used for analysis scripts (.mat)
 │   ├── data_dev.mat
