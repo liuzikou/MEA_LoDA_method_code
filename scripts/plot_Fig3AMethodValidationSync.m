@@ -23,7 +23,7 @@ tl = tiledlayout(fig,row,col,'TileSpacing','compact','Padding','compact');
     ax1=nexttile(tl);
     [ax1,stats] = plot_column_dotswarm(Sync_mean_52well,ax1);
     ylim(ax1,[0 1.1]);
-    title(ax1,"Synchronization in 52 wells at D28");
+    title(ax1,"Synchronization in 52 wells at DIV28");
     ylabel(ax1,"Sync-mean");
 
     ax2=nexttile(tl);
